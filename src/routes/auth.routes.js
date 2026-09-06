@@ -9,6 +9,8 @@ router.post('/register',authController.registerUser);
 
 router.post('/login',authController.loginuser);
 
+router.post('/logout',authController.logoutUser);
+
 
 
 
